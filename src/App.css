@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  background-color: powderblue !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn_right {
+  float : right;
+}
+.frm_padding {
+  padding-left: 16px !important;
+  padding-bottom: 16px !important;
+}
+.header_padding
+{
+  padding-top: 15px;
+}
+.btn_flex{
+  display:flex;
+}
+.btn_search{
+  padding-right: 13px;
+  padding-left: 16px;
+}
+.table_padding
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.fa_button
+{
+  vertical-align: text-bottom;
+}
+
+.fa_button_top
+{
+  vertical-align: top;
+}
+
+.faInfo_button{
+  vertical-align: top;
+  padding-left: 1px;
+}
+
+.currency-wrap{
+  position:relative;
+}
+
+.currency-code{
+  position:absolute;
+  left:8px;
+  top:7px;
+}
+
+.text-currency{
+  padding:10px 20px;
+  border:solid 1px #ccc;
+  border-radius:5px;
+}
+.addMore{
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: #eee;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.addMore:hover{
+  border: 1px solid #888;
+  background-color: #ddd;
+}
+
+.faSearch_button{
+  vertical-align: text-bottom;
+}

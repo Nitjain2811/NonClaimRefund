@@ -1,0 +1,9 @@
+apiVersion: v1
+metadata:
+  askId: UHGWM110-017094
+  caAgileId: poc
+  projectKey: com.optum.uhone.UHOneFacets:NonClaimRefund_Dashboard
+  projectName: NonClaimRefund
+  projectFriendlyName: NonClaimRefund
+  componentType: code
+  targetQG: GATE_00
